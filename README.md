@@ -6,12 +6,27 @@ A small console application where members donate books to earn points and redeem
 
 ## 🚀 How to Run
 
-```bash
-# Run the application
-python src/app.py
+    # Run the application
+    python src/app.py
 
-# Run the test suite
-python -m pytest
+    # Run the test suite
+    python -m pytest
 
-# Check test coverage
-python -m pytest --cov=src
+    # Check test coverage
+    python -m pytest --cov=src
+
+## 🛠️ What it Covers
+- AAA-pattern (Arrange-Act-Assert) unit tests
+- Parametrised test cases and fixtures
+- Testing error paths with `pytest.raises`
+- Test coverage measurement via `pytest-cov`
+- Test-Driven Development (TDD) workflow
+
+## 📸 Proof of Work
+
+![Test Results](tests_passed.png)
+
+*41 passing tests with 100% coverage on the core rules module*
+
+---
+**Built by [Akarsha Sirisena](https://github.com/ashisirisena442)**
